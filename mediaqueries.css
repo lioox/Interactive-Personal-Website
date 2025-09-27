@@ -1,0 +1,26 @@
+@media screen and (max-width:1200px){
+  #desktop-nav{
+    display: none;
+  }
+  #hamburger-nav{
+    display: flex;
+  }
+
+
+
+  .dock {
+    gap: 12px;
+}
+
+  .app-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+}
+
+  .app-icon img {
+    border-radius: 14px;
+}
+
+
+}

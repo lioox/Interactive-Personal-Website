@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Container must have a real size */
+        .cover-photo-container{
+            position:relative;
+            width: 100%;
+            width: 320px;      /* control overall size */
+            height: 295px;  /* or: height: 300px; */
+            
+            margin: 16px auto;
+            overflow: hidden;
+        }
+        
+        /* Stack BOTH images and make them fill the box */
+        .cover-photo-container .cover-photo{
+            position: absolute;    /* stack */
+            inset: 0;              /* top/right/bottom/left = 0 */
+            width: 100%;
+            height: 100%;
+            object-fit: cover;     /* fill nicely without distortion */
+            transition: opacity 1s ease;
+            display: block;
+        }
+        
+        /* Start state */
+        .cover-photo-container .img-a{ opacity: 1; }
+        .cover-photo-container .img-b{ opacity: 0; }
+        
+        /* Hover: cross-fade */
+        .cover-photo-container:hover .img-a{ opacity: 0; }
+        .cover-photo-container:hover .img-b{ opacity: 0.9; }
+        
+        
+    </style>
+</head>
+
+
+
+<body>
+    <div class="bubble-container">
+        <div class="cover-photo-container">
+          <img class="cover-photo img-a" src="./assets/self_dot.png" alt="Dot Pixel Photo" >
+          <img class="cover-photo img-b" src="./assets/self_reveal.PNG" alt="Revealed Photo" >
+        </div>    
+    </div>
+</body>
+</html>
+
+
