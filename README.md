@@ -3,7 +3,7 @@
 An interactive personal portfolio inspired by Impressionist gardens and *Howl’s Moving Castle*.  
 Built with **HTML5, CSS3, and JavaScript** — featuring 3D image stacks, hover-lift effects, and multilingual overlays.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-2ea44f?style=for-the-badge)](https://lioox.github.io/portfolio/)
+[![Live Demo]](https://lioox.github.io/portfolio/)
 
 ---
 
