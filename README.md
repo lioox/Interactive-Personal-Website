@@ -17,7 +17,7 @@ Built with **HTML5, CSS3, and JavaScript** — featuring 3D image stacks, hover-
 ---
 
 ##  Preview
-![Little Garden Screenshot](assets/bg_1.jpg)
+![Little Garden Screenshot](preview1/preview1.png)(preview2/preview2.png)(preview3/preview3.png)(preview4/preview4.png)
 
 ---
 
